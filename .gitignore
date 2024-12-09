@@ -1,0 +1,33 @@
+# Ignore compiled files
+*.out
+*.exe
+*.o
+*.a
+*.so
+*.dll
+
+# Ignore build directories
+build/
+bin/
+obj/
+
+# Ignore IDE specific files
+.vscode/
+.idea/
+
+# Ignore operating system specific files
+.DS_Store         # macOS
+Thumbs.db         # Windows
+
+# Ignore CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeLists.txt.user
+
+# Ignore debugging files
+*.dSYM
+*.debug
+
+# Ignore user-specific settings
+*.user
+*.swp           # Vim swap files
